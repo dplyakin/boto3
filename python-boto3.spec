@@ -78,6 +78,9 @@ rm -rf tests/integration
 %{python3_sitelib}/%{pkgname}-%{version}-*.egg-info
 
 %changelog
+* Mon Nov 29 2021 Konstantin Zakharov <kzakharov@croc.ru> - 1.17.14-CROC4
+- spec: revert build for py2
+
 * Fri Sep 24 2021 Alex Rudenko <arudenko@croc.ru> - 1.17.14-CROC3
 - spec: remove build for py2
 
