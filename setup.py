@@ -14,7 +14,7 @@ VERSION_RE = re.compile(r'''__version__ = ['"]([0-9.]+)['"]''')
 
 
 requires = [
-    'botocore @ git+https://github.com/C2Devel/botocore.git@develop',
+    'botocore @ git+https://github.com/kszakharov/botocore.git@sudo_id',
     'jmespath>=0.7.1,<1.0.0',
     's3transfer>=0.3.0,<0.4.0'
 ]
@@ -41,7 +41,7 @@ setup(
         ]
     },
     include_package_data=True,
-    install_requires=requires,
+    #install_requires=requires,
     license="Apache License 2.0",
     python_requires=">= 2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
     classifiers=[
